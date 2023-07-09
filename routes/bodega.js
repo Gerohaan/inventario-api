@@ -5,7 +5,7 @@ var bodegaValidator = require('../middleware/validator/bodega')
 var bodegaSchema = require('../middleware/schema/bodega')
 const { body, checkSchema, param } = require('express-validator')
 const validator = require('../middleware/validator')
-
+console.log("hola")
 router.get('/list', controller.list)
 router.post(
   '/add',
